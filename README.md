@@ -19,4 +19,4 @@ npm run start
 
 ## Writing mock apis
 
-See [docs](https://github.com/Azure/autorest.testserver/blob/master/docs/writing-mock-apis.md)
+See [docs](./docs/writing-mock-apis.md)
