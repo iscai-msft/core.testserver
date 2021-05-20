@@ -4,7 +4,7 @@ app.get("/basic/helloWorld/string", "GetBasicHelloWorldString", (req) => {
   return {
     status: 200,
     body: {
-      contentType: "application/json",
+      contentType: "text/plain",
       rawContent: "Hello, world!",
     },
   };
@@ -24,7 +24,7 @@ app.get("/basic/helloWorld/bytes", "GetBasicHelloWorldBytes", (req) => {
   return {
     status: 200,
     body: {
-      contentType: "application/json",
+      contentType: "text/plain",
       rawContent: Buffer.from("Hello, world!"),
     },
   };
