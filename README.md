@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- `Node.js`
+- Python. Recommend using Python 3.x+.
 
 ## Getting started
 
