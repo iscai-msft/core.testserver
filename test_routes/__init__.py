@@ -11,3 +11,12 @@ from .errors import errors_api
 from .multipart import multipart_api
 from .streams import streams_api
 from .urlencoded import urlencoded_api
+
+__all__ = [
+    "basic_api",
+    "encoding_api",
+    "errors_api",
+    "multipart_api",
+    "streams_api",
+    "urlencoded_api",
+]
