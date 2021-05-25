@@ -27,29 +27,9 @@ async def async_streaming_body():
     yield b"world!"
 
 @streams_api.route('/basic', methods=['GET'])
-def get_basic():
+def basic():
     return Response(streaming_body(), status=200)
 
 @streams_api.route('/iterable', methods=['GET'])
-def get_iterable():
+def iterable():
     return Response(StreamingBody(), status=200)
-
-
-# app.get("/streams/jpeg", "GetJpeg", async (req) => {
-#   const buffer: Buffer = await fs.promises.readFile(resolve(__dirname, "../../src/test-routes/fox.jpeg"));
-#   for (let i = 0; i < buffer.length; i++) {
-#     await write(req, buffer.slice(i, i + 1));
-#   }
-#   return {
-#     status: 200,
-#   };
-# });
-
-# app.get("/streams/text", "GetText", async (req) => {
-#   for (let i = 0; i < 10; i++) {
-#     await write(req, Buffer.from("Hello, world!\n", "utf-8"));
-#   }
-#   return {
-#     status: 200,
-#   };
-# });
