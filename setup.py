@@ -32,6 +32,6 @@ setup(
         "flask"
     ],
     entry_points={
-        'console_scripts': ['run=core.testserver.run']
+        'console_scripts': ['run=core.testserver:run']
     }
 )

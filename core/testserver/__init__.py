@@ -4,7 +4,6 @@
 # Licensed under the MIT License. See LICENSE.txt in the project root for
 # license information.
 # -------------------------------------------------------------------------
-
 from .app import run
 
-__all__ = ['run']
+__all__ = ["run"]
