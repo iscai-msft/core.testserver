@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 version = "1.0.0b1"
 
 setup(
-    name="core.testserver",
+    name="core-testserver",
     version=version,
     description='Testserver for Python Core',
     long_description='Testserver for Python Core',
@@ -30,5 +30,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         "flask"
-    ]
+    ],
+    entry_points={
+        'console_scripts': ['run=core.testserver.run']
+    }
 )
