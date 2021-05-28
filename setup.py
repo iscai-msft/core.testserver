@@ -30,8 +30,5 @@ setup(
     packages=find_packages(),
     install_requires=[
         "flask"
-    ],
-    entry_points={
-        'console_scripts': ['run=core.testserver:run']
-    }
+    ]
 )

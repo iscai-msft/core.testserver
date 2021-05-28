@@ -23,8 +23,5 @@ app.register_blueprint(streams_api, url_prefix="/streams")
 app.register_blueprint(urlencoded_api, url_prefix="/urlencoded")
 app.register_blueprint(multipart_api, url_prefix="/multipart")
 
-def run():
-    app.run(debug=True)
-
 if __name__ == "__main__":
-    run()
+    app.run(debug=True)
