@@ -21,11 +21,6 @@ def streaming_body():
     yield b"Hello, "
     yield b"world!"
 
-
-async def async_streaming_body():
-    yield b"Hello, "
-    yield b"world!"
-
 def stream_json_error():
     yield '{"error": {"code": "BadRequest", '
     yield' "message": "You made a bad request"}}'
