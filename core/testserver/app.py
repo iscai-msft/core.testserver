@@ -24,4 +24,4 @@ app.register_blueprint(urlencoded_api, url_prefix="/urlencoded")
 app.register_blueprint(multipart_api, url_prefix="/multipart")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=5000)
