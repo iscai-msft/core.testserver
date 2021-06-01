@@ -6,8 +6,8 @@
     whatever category you're targeting in your file
     2. Expose your file in `test_routes/__init__.py`
     3. Add `app.register_blueprint({category}_api, url_prefix="/{category}")` in the main `app.py` file
-2. Define your API in the files! The url of the flask app should be `http://127.0.0.1:5000/`, and if your blueprint is registered with a
-`url_prefix`, the urls you include for each individual API should be relative to `http://127.0.0.1:5000/{category}/`
+2. Define your API in the files! The url of the flask app should be `http://localhost:5000/`, and if your blueprint is registered with a
+`url_prefix`, the urls you include for each individual API should be relative to `http://localhost:5000/{category}/`
 
 ***See the [Flask docs](https://flask.palletsprojects.com/en/2.0.x/api/) for documentation***
 
