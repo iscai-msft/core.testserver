@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Python. Recommend using Python 3.x+.
+- Python.
 
 ## Getting started
 
