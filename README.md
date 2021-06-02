@@ -13,9 +13,10 @@
     ```
 3. Run the server
 
-    a. Run it in normal mode: Stay in the root of the repo and run `python app.py`
+    a. Run it in normal mode: set the environment variable `FLASK_APP` to `"coretestserver"`
 
-    b. Run it in debug mode: If you're in VSCode, you can click the debug button, click "Run and Debug", then select "Flask" from the drop down menu
+    b. Run it in debug mode: If you're in VSCode, you can click the debug button, click "Run and Debug", then select "Flask" from the drop down menu, then set
+    the "path to application" as `"coretestserver"`.
 
 ## Writing mock apis
 
