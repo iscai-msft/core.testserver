@@ -24,12 +24,6 @@ def lines():
         "Hello,\nworld!", status=200, mimetype="text/plain"
     )
 
-@basic_api.route("text", methods=['GET'])
-def charset():
-    return Response(
-        "Hello, world!", status=200, mimetype="text/plain"
-    )
-
 @basic_api.route("/bytes", methods=['GET'])
 def bytes():
     return Response(

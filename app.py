@@ -6,7 +6,7 @@
 # -------------------------------------------------------------------------
 
 from flask import Flask
-from .test_routes import (
+from test_routes import (
     basic_api,
     encoding_api,
     errors_api,
@@ -23,5 +23,8 @@ app.register_blueprint(streams_api, url_prefix="/streams")
 app.register_blueprint(urlencoded_api, url_prefix="/urlencoded")
 app.register_blueprint(multipart_api, url_prefix="/multipart")
 
-if __name__ == "__main__":
+def run():
     app.run(debug=True, port=5000)
+
+if __name__ == "__main__":
+    run()
