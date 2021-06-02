@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: coretestserver
+Version: 1.0.0b1
+Summary: Testserver for Python Core
+Home-page: https://github.com/iscai-msft/core.testserver
+Author: Microsoft Corporation
+Author-email: azpysdkhelp@microsoft.com
+License: MIT License
+Description: Testserver for Python Core
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License

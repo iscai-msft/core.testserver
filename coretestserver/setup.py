@@ -10,8 +10,9 @@ from setuptools import setup, find_packages
 version = "1.0.0b1"
 
 setup(
-    name="core-testserver",
+    name="coretestserver",
     version=version,
+    include_package_data=True,
     description='Testserver for Python Core',
     long_description='Testserver for Python Core',
     license='MIT License',

@@ -10,7 +10,7 @@ from flask import (
     Blueprint,
     request,
 )
-from helpers import assert_with_message
+from .helpers import assert_with_message
 
 multipart_api = Blueprint('multipart_api', __name__)
 
