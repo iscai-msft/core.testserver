@@ -13,7 +13,7 @@
     ```
 3. Run the server
 
-    a. Run it in normal mode: set the environment variable `FLASK_APP` to `coretestserver`, then run `flask run`
+    a. Run it in normal mode: set the environment variable `FLASK_APP` to `coretestserver`, then run `flask run`. If setting it to `coretestserver` doesn't work for you, try setting it to `coretestserver/coretestserver`.
 
     b. Run it in debug mode: If you're in VSCode, you can click the debug button, click "Run and Debug", then select "Flask" from the drop down menu, then set
     the "path to application" as `coretestserver`.
