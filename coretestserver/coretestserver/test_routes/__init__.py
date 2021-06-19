@@ -11,6 +11,7 @@ from .errors import errors_api
 from .multipart import multipart_api
 from .streams import streams_api
 from .urlencoded import urlencoded_api
+from .xml import xml_api
 
 __all__ = [
     "basic_api",
@@ -19,4 +20,5 @@ __all__ = [
     "multipart_api",
     "streams_api",
     "urlencoded_api",
+    "xml_api",
 ]
