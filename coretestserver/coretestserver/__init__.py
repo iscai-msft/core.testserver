@@ -5,7 +5,7 @@
 # license information.
 # -------------------------------------------------------------------------
 
-from flask import Flask
+from flask import Flask, Response
 from .test_routes import (
     basic_api,
     encoding_api,
@@ -25,5 +25,9 @@ app.register_blueprint(urlencoded_api, url_prefix="/urlencoded")
 app.register_blueprint(multipart_api, url_prefix="/multipart")
 app.register_blueprint(xml_api, url_prefix="/xml")
 
+@app.route('/health', methods=['GET'])
+def latin_1_charset_utf8():
+    return Response(status=200)
+
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(debug=True)
