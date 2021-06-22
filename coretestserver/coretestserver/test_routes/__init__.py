@@ -11,7 +11,7 @@ from .errors import errors_api
 from .multipart import multipart_api
 from .streams import streams_api
 from .urlencoded import urlencoded_api
-from .xml import xml_api
+from .xml_route import xml_api
 
 __all__ = [
     "basic_api",
